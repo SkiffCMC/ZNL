@@ -7,6 +7,8 @@
 		"database": "znl_dev",
 		"min": 1,
 		"max": 10,
+		"user": "znl",
+		"password": "znl",
 		"logFileName": "logs/devnet/znl_db.log"
 	},
 	"api": {
