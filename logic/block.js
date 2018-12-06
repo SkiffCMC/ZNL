@@ -43,13 +43,15 @@ const __private = {};
  * @todo Add description for the params
  */
 class Block {
-	constructor(ed, schema, transaction, cb) {
+	constructor(ed, schema, transaction, cb, isGenesis) {
 		this.scope = {
 			ed,
 			schema,
 			transaction,
 		};
-		__private.blockReward = new BlockReward();
+		if (isGenesis != true) {
+			__private.blockReward = new BlockReward();
+		}
 		if (cb) {
 			return setImmediate(cb, null, this);
 		}
@@ -64,7 +66,7 @@ class Block {
 	 * @returns {block} block
 	 * @todo Add description for the params
 	 */
-	create(data) {
+	create(data, isGenesis) {
 		const transactions = data.transactions.sort((a, b) => {
 			// Place MULTI transaction after all other transaction types
 			if (
@@ -99,7 +101,8 @@ class Block {
 
 		const nextHeight = data.previousBlock ? data.previousBlock.height + 1 : 1;
 
-		const reward = __private.blockReward.calcReward(nextHeight);
+		const reward =
+			isGenesis != true ? __private.blockReward.calcReward(nextHeight) : 0;
 		let totalFee = new Bignum(0);
 		let totalAmount = new Bignum(0);
 		let size = 0;
