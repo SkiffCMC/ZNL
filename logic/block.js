@@ -66,7 +66,7 @@ class Block {
 	 * @returns {block} block
 	 * @todo Add description for the params
 	 */
-	create(data, isGenesis) {
+	create(data) {
 		const transactions = data.transactions.sort((a, b) => {
 			// Place MULTI transaction after all other transaction types
 			if (
@@ -101,8 +101,7 @@ class Block {
 
 		const nextHeight = data.previousBlock ? data.previousBlock.height + 1 : 1;
 
-		const reward =
-			isGenesis != true ? __private.blockReward.calcReward(nextHeight) : 0;
+		const reward = __private.blockReward.calcReward(nextHeight);
 		let totalFee = new Bignum(0);
 		let totalAmount = new Bignum(0);
 		let size = 0;
