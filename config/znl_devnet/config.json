@@ -29,25 +29,25 @@
 	"forging": {
 		"force": true,
 		"defaultPassword":
-			"leg medal paper dress ball then moral love rebuild mutual hammer discover",
+			"chaos tooth verb powder tray merry romance head trade joy year step",
 		"delegates": [
 			{
 				"encryptedPassphrase":
-					"iterations=1&salt=0b6536f6432cb9c044571ac11434a90c&cipherText=99ac9a238ec6b5bfebf5b921f599ac2917ce96edab4d105709693e01ac2dbfddf1ed39ea0f1f6424240d69cb8bb1229272a9d5ab8c9c17ee5111415aaf5837040c42aa2f23f5db986e9d54&iv=24c2265d371281564c4d4aca&tag=70cb36ebd2ebb54160fd6cd4e996a56b&version=1",
+					"iterations=1&salt=15e84aa54919222c9e3266d573fd62e8&cipherText=097177732c25b34fa0b1518b89af866286686f70da8cf0fb7cfec92f45011ced7ad7b1220203349aca45f2aefe84022a7ea41fddbf612b1c8e9a2cd597d44b5ac0653146007f8995fd1830477e8a111e&iv=38a8b4fadead3c0633603524&tag=832084a9b3060f98f9a36bed5ee10d97&version=1",
 				"publicKey":
-					"0e732b8d28fe277f891c900b4c01ddfa9b634c16ce523de65475d6cc1baa6ef1"
+					"f717cb37438b3691d6d8f7cd93fa4a6311b117305fde37cbc32d147066a7377f"
 			},
 			{
 				"encryptedPassphrase":
-					"iterations=1&salt=6ef91e0fd49c1856cfa7a9e697e56a7c&cipherText=0153626c31396bf545c65e75c9041786b11935685b39e9ac306187c7fd94b8d1461720b3c06daf22da3c9b0f807c99d729fada8f6bdd118dbe0eb62bc4fe06880c99a8333bbe1fb8ab222913db69de&iv=1c2d91018ece31bff9b60134&tag=2a80ba2864f9eac04ad42fe8e9c2434b&version=1",
+					"iterations=1&salt=dbaebfd4529dc53b9671d28e20d94a30&cipherText=d8f13046e982b1cbf6b86ccab7c13afd58f3b386add0b86527fa2b4f381a36a68f72df871ac0adfba51edb0237521239cfd0d5e70a6c434880eb205025d81db5ff&iv=08daa5ba9a82d6d9dd691858&tag=2c86c1188c1f06767cdd69056df54efb&version=1",
 				"publicKey":
-					"9d508e502ad7a42bd393e2cb4e56b9176c418dec709ad1dea160273dc52605b2"
+					"5fecf67244d83d423419ce51a6608362f489b1b77b9d5e4fd482e75a8caa5c20"
 			},
 			{
 				"encryptedPassphrase":
-					"iterations=1&salt=882b2dc19d9884d89e78d5963923fe2d&cipherText=ae38817f9a5a34e116f4d3b38c29bf805af494f484f841c745cc78c67c61e964cb162e0568d979d24e257abfa7b2afeb9fb5ebd63277b995e19efa6483495c669789951227&iv=4310ac4dbfc02c1198141626&tag=91fb7544cf62f05812aa8723cfcdc382&version=1",
+					"iterations=1&salt=383ac976c82cf65e8c57ef801ee2f630&cipherText=73356da01be7df891be6900f811aec4a7cf3126f6f7d201b6063a188bb44fc438b75d54c66df97c1bbc417d9bc1405e2d7046e7d19386bd91bed6b03acd8b73fffee49&iv=f9c4075a564a97aec314191c&tag=474c2d9a1714e93eaa5bcde85f759c97&version=1",
 				"publicKey":
-					"fd9b5682a2d5d705c64b740349f186809eda56c48571de69a0daf5ad6268b4a2"
+					"ed97e9c43b7254e7f74176e088a916806d20a43a082fa11bb720fbce661856d5"
 			}
 		]
 	}
